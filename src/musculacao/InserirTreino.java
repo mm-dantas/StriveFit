@@ -29,6 +29,7 @@ public class InserirTreino {
         System.out.println("Digite seu treino de cada musculo pedido (digite 'fim' para terminar): ");
         System.out.println("Treino de " + nomeMusculo + ":");
         grupoMuscular.setNomeMusculo(nomeMusculo);
+        System.out.println("Digite o primeiro exercício: ");
 
         while (true) {
             String exercicio = leitor.nextLine();

@@ -2,6 +2,7 @@ package conexao;
 
 import javax.swing.JOptionPane;
 import java.sql.Connection;
+import java.sql.DriverManager;
 
 public class ConexaoDAO {
 
@@ -9,7 +10,8 @@ public class ConexaoDAO {
         Connection conn = null;
 
         try {
-            String url = "jdbc:mysql://";
+            String url = "jdbc:mysql://localhost:3306/bancoteste?user=root&password";
+            conn = DriverManager.getConnection(url);
         } catch (Exception erro) {
             JOptionPane.showMessageDialog(null, erro.getMessage());
         }
