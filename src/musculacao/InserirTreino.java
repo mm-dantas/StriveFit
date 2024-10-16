@@ -50,7 +50,7 @@ public class InserirTreino {
                 grupoMuscular.addNumeroRepeticoes(leitor.nextInt());
                 leitor.nextLine();
             }
-
+            System.out.println(grupoMuscular.dadosExercicio());
             System.out.println("Digite o próximo exercício: ");
         }
 

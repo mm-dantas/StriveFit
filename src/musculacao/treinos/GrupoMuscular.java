@@ -33,5 +33,21 @@ public class GrupoMuscular {
         this.peso.add(peso);
     }
 
+    public String dadosExercicio() {
+        int cont = 0;
+        String dado = "Nome do MÚsculo: "+nomeMusculo;
+        for (String exercicio : exercicios) {
+            dado += "Exercício: "+ exercicio+"" +
+                    "Número de Séries: "+ numeroSeries;
+            for (int repeticao : numeroRepeticoes){
+                dado += "" +
+                        "Número de Repetições: "+repeticao+"" +
+                        "Carga: "+peso.get(cont);
+                cont ++;
+            }
+        }
+        return dado;
+    }
+
 
 }
