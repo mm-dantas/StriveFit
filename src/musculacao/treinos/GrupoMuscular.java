@@ -35,14 +35,14 @@ public class GrupoMuscular {
 
     public String dadosExercicio() {
         int cont = 0;
-        String dado = "Nome do MÚsculo: "+nomeMusculo;
+        String dado = "Nome do Músculo: "+nomeMusculo+"\n";
         for (String exercicio : exercicios) {
-            dado += "Exercício: "+ exercicio+"" +
-                    "Número de Séries: "+ numeroSeries;
+            dado += "\nExercício: "+ exercicio+
+                    "\nNúmero de Séries: "+ numeroSeries;
             for (int repeticao : numeroRepeticoes){
-                dado += "" +
-                        "Número de Repetições: "+repeticao+"" +
-                        "Carga: "+peso.get(cont);
+                dado += "\n" +
+                        "\nNúmero de Repetições: "+repeticao+
+                        "\nCarga: "+peso.get(cont);
                 cont ++;
             }
         }
