@@ -15,10 +15,3 @@ public class ConnectionFactory {
         }
     }
 }
-
-
-//deve nao estar funcionando pq vc nao colocou isso: <dependency>
-//    <groupId>mysql</groupId>
-//    <artifactId>mysql-connector-java</artifactId>
-//    <version>8.0.33</version>
-//</dependency>

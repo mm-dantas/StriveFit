@@ -12,16 +12,14 @@ import java.util.Scanner;
 public class InserirTreino {
     private ConnectionFactory connection;
 
-
-
-
-
-
+    //lista na qual os exercícios que o usuário realizou são armazenados
     ArrayList<String> listaDeExercicios = new ArrayList<>();
 
     public void inserirTreino(){
         this.connection = new ConnectionFactory();
         Scanner exercicios = new Scanner(System.in);
+
+        // esse bloco de código é responsavel para o usuário colocar todos os exercícios que ele fez no dia na academia
         while (true) {
             System.out.println("Digite o exercício realizado ou 'fim' para terminar: ");
             String nomeDoExercicio = exercicios.nextLine();
@@ -33,6 +31,7 @@ public class InserirTreino {
 
         Scanner leitor = new Scanner(System.in);
 
+        //percorre cada item da lista para colocar os dados de cada exercício
         for (String exercicio : listaDeExercicios) {
             Treino treino = new Treino();
             inserirDadosTreino(leitor, treino, exercicio);
@@ -59,6 +58,7 @@ public class InserirTreino {
         System.out.println(treino.MostrarDadosExercicio());
 
 
+        //adiciona os dados do exercício na tabela
         String sql = "INSERT INTO treino (nome_treino, nome_musculo, qtd_serie)" +
                 "VALUES (?, ?, ?)";
         Connection conn = connection.recuperaConexao();
