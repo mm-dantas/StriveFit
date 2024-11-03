@@ -16,5 +16,5 @@
 
 ## Futuro
 
-Pretendo expandir o **StriveFit** para uma plataforma web, onde será possível visualizar gráficos mostrando a evolução dos treinos ao longo do tempo.
+Pretendo expandir o **StriveFit** para uma plataforma web, onde será possível visualizar gráficos mostrando a evolução dos treinos ao longo do tempo. Há a intenção de evolução ao ponto de virar um app mobile.
 
