@@ -7,11 +7,12 @@ import java.util.Scanner;
 public class MenuInicial {
     private int opcao;
 
+    private static Scanner leitor = new Scanner(System.in);
+
     public void menuInicial(){
-        Scanner leitor = new Scanner(System.in);
         System.out.println("Digite a opção desejada: \n" +
                 "1. Inserir Treino no Sistema;\n" +
-                "2. Ver me desempenho;");
+                "2. Ver meu desempenho;");
         opcao = leitor.nextInt();
 
         if (opcao == 1){

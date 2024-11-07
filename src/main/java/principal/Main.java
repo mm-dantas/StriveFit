@@ -1,13 +1,15 @@
 package principal;
 
 //import musculacao.Desempenho;
+import conta.Cadastro;
 import musculacao.InserirTreino;
 
 public class Main {
     public static void main(String[] args) {
-        //leva ao menu inicial lá estão os caminhos
-        MenuInicial menu = new MenuInicial();
-        menu.menuInicial();
+        //MenuInicial menu = new MenuInicial();
+        Cadastro meuCadastro = new Cadastro();
+        meuCadastro.DadosDoUsuario();
+        //menu.menuInicial();
 
     }
 }
