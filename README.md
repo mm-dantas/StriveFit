@@ -1,6 +1,8 @@
 # StriveFit
 
-**StriveFit** é uma aplicação Java para o gerenciamento de treinos de musculação, permitindo registrar exercícios, séries, repetições e pesos utilizados. O objetivo é facilitar o acompanhamento do progresso nos treinos de força.
+**StriveFit** é uma aplicação Java desenvolvida para auxiliar no gerenciamento de treinos de musculação. Com ele, você pode registrar cada exercício, série, repetição e peso utilizado, facilitando o acompanhamento do progresso ao longo do tempo.
+
+O StriveFit oferece dashboards e gráficos que ajudam a visualizar seu desenvolvimento em força e mudanças de peso, te ajudando assim a focar nos seus pontos fracos e trabalhar de maneira mais direcionada. Ideal para quem busca acompanhar a evolução dos treinos de forma organizada e baseada em dados.
 
 ⚠️ O sistema está em fase inicial e ainda não é capaz de realizar todas as funcionalidades planejadas. ⚠️
 
